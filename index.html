@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: Roboto, sans-serif;
+        }
+
+        .wrapped {
+            text-align: center;
+            border: 5px solid black;
+            border-radius: 50%;
+            padding: 20px;
+            height: 200px;
+            width: 200px;
+            background-color: lightblue;
+        }
+
+        .btn {
+            background-color: gainsboro;
+            border : 1px solid black;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapped">
+        <h1>StopWatch</h1>
+        <p><span id="seconds">0</span>:<span id="tens">0</span></p>
+        <button class="btn-start btn">Start</button>
+        <button class="btn-stop btn">Stop</button>
+        <button class="btn-reset btn">Reset</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
